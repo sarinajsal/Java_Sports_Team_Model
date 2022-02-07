@@ -25,11 +25,7 @@ public class TeamService {
 
         }
         return count;
-    }
-}
-
-
-// example of using for i instead.
+        // example of using for i instead.
 
 //                return count;
 //        int count = 0;
@@ -40,6 +36,42 @@ public class TeamService {
 //            }
 //
 //        }
+
+    }
+
+    public void addPlayerToTeam (Team team, Player player) throws Exception {  //need to add exception to method signature
+        //check if there is an empty space on the team
+        int spaces = countEmptySpacesOnTeam(team);
+        //if there is an empty space, add the player
+        if(spaces > 0){
+            //get the players array from team
+            Player[] storingPlayers = team.getPlayers();
+
+            //add player to first available empty space
+            //loop through players array
+            for (int i = 0; i < storingPlayers.length; i++) {
+
+                //if we find an empty space, add the player then break
+
+                if(storingPlayers[i] == null){
+                    storingPlayers[i] = player;
+                    break;
+                }
+
+                }
+            }
+            else {
+                throw new Exception(); //could throw illegalstate exception instead down here, dont need to add to methods signature 
+
+        }
+
+    }
+
+
+}
+
+
+
 
 
 
