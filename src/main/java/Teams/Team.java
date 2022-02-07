@@ -25,7 +25,7 @@ public class Team {
     public Manager getManager(){
         return  manager;
     }
-    public void setPlayers(Manager manager){
+    public void setManager(Manager manager){
         this.manager = manager;
     }
     public Player[] getPlayers(){
