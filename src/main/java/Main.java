@@ -12,7 +12,7 @@ public class Main {
 
         Manager manager = new Manager("tom");
         Team teamOne = new Team("s",manager);
-
+        Manager managerRep = new Manager("dave");
 
         TeamService teamService = new TeamService();
 
@@ -27,6 +27,9 @@ public class Main {
 
         int spacesAfter = teamService.countEmptySpacesOnTeam(teamOne);
         System.out.println(spacesAfter);
+
+        teamService.replaceManager(teamOne, managerRep);
+        System.out.println(teamOne);
 
     }
 }

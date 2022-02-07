@@ -1,5 +1,6 @@
 package teams;
 
+import mangers.Manager;
 import players.Player;
 
 public class TeamService {
@@ -65,6 +66,12 @@ public class TeamService {
 
         }
 
+    }
+
+    public void replaceManager(Team team, Manager manager){
+        //i want to take a manager object from the team object and put in a different manager object
+        team.setManager(manager);
+        System.out.println(manager);
     }
 
 
