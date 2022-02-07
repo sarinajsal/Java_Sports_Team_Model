@@ -1,7 +1,7 @@
-package Teams;
+package teams;
 
-import Mangers.Manager;
-import Players.Player;
+import mangers.Manager;
+import players.Player;
 
 public class Team {
     private Player[] players; //dont need to put size in yet, should be in constructor

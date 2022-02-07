@@ -1,4 +1,4 @@
-package Mangers;
+package mangers;
 
 import java.util.Objects;
 

@@ -1,6 +1,6 @@
-package Teams;
+package teams;
 
-import Players.Player;
+import players.Player;
 
 public class TeamService {
 

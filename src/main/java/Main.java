@@ -1,7 +1,7 @@
-import Mangers.Manager;
-import Players.Player;
-import Teams.Team;
-import Teams.TeamService;
+import mangers.Manager;
+import players.Player;
+import teams.Team;
+import teams.TeamService;
 
 public class Main {
     public static void main(String[] args) {
