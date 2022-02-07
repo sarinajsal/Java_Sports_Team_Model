@@ -1,6 +1,6 @@
-import pojos.Manager;
-import pojos.Player;
-import pojos.Team;
+import Mangers.Manager;
+import Players.Player;
+import Teams.Team;
 
 public class Main {
     public static void main(String[] args) {

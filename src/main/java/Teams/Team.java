@@ -1,4 +1,7 @@
-package pojos;
+package Teams;
+
+import Mangers.Manager;
+import Players.Player;
 
 public class Team {
     private Player[] players; //dont need to put size in yet, should be in constructor
