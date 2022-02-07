@@ -61,7 +61,7 @@ public class TeamService {
                 }
             }
             else {
-                throw new Exception(); //could throw illegalstate exception instead down here, dont need to add to methods signature 
+                throw new Exception(); //could throw illegalstate exception instead down here, dont need to add to methods signature
 
         }
 
